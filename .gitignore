@@ -152,5 +152,12 @@ dmypy.json
 pyvenv.cfg
 pip-selfcheck.json
 
+#files and folders
+.resourcesp
+/resources
+/media
+/static
+.vscode
+
 
 # End of https://www.gitignore.io/api/venv,linux,django
