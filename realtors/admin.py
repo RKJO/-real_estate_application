@@ -2,4 +2,10 @@ from django.contrib import admin
 
 from .models import Realter
 
-admin.site.register(Realter)
+class RealterAdmin(admin.ModelAdmin):
+    list_display = ('id', 'name', 'email', 'hire_date')
+    list_display_links = ('id', 'name')
+    search_fields = ('name',)
+    list_pre_page = 25
+
+admin.site.register(Realter, RealterAdmin)
