@@ -1,8 +1,8 @@
 from django.contrib import admin
 
-from .models import Realter
+from .models import Realtor
 
-class RealterAdmin(admin.ModelAdmin):
+class RealtorAdmin(admin.ModelAdmin):
     list_display = ('id', 'name', 'is_mvp', 'email', 'hire_date')
     list_display_links = ('id', 'name')
     seagitrch_fields = ('name',)
@@ -10,4 +10,4 @@ class RealterAdmin(admin.ModelAdmin):
 
     list_pre_page = 25
 
-admin.site.register(Realter, RealterAdmin)
+admin.site.register(Realtor, RealtorAdmin)

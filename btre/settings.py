@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'pages.apps.PagesConfig',
     'listings.apps.ListingsConfig',
     'realtors.apps.RealtorsConfig',
+    'contacts.apps.ContactsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -140,3 +141,11 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
+
+# Email config
+EMAIL_HOST = 'mail19.mydevil.net'
+EMAIL_PORT = 465
+EMAIL_HOST_USER = 'info@rafaljozwiak.pl'
+EMAIL_HOST_PASSWORD = 'Ornityna87#'
+# EMAIL_USE_TLS = True
+EMAIL_USE_SSL = True
