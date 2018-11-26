@@ -49,7 +49,7 @@ def search(request):
     if 'state' in request.GET:
         state = request.GET['state']
         if state:
-            queryset_list= queryset_list.filter(city__iexact=state)
+            queryset_list= queryset_list.filter(state__iexact=state)
     
     # Bedrooms 
     if 'bedrooms' in request.GET:
@@ -67,7 +67,8 @@ def search(request):
         'state_choices' : state_choices,
         'price_choices' : price_choices,
         'bedroom_choices' : bedroom_choices,
-        'listings' : queryset_list
+        'listings' : queryset_list,
+        'values' : request.GET,
     }
 
     return render(request, 'listings/search.html', ctx)

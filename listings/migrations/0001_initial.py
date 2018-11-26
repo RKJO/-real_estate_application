@@ -38,7 +38,7 @@ class Migration(migrations.Migration):
                 ('photo_5', models.ImageField(blank=True, upload_to='photos/%Y/%m/%d/')),
                 ('is_published', models.BooleanField(default=True)),
                 ('list_date', models.DateTimeField(blank=True, default=datetime.datetime.now)),
-                ('realter', models.ForeignKey(on_delete=django.db.models.deletion.DO_NOTHING, to='realtors.Realter')),
+                ('realtor', models.ForeignKey(on_delete=django.db.models.deletion.DO_NOTHING, to='realtors.Realtor')),
             ],
         ),
     ]
