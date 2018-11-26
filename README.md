@@ -18,8 +18,23 @@ A real estate application using Django
 - Form info should go to database and notify realtor(s) with an email
 - Frontend register/login to track inquiries
 - Both unregistered and registered users can submit form. If registered, can only submit one per listing
-    
- ![BTRA main](https://raw.githubusercontent.com/RKJO/real_estate_application/images/btra_img/btra_main.png)
+
+***
+![BTRA main](https://raw.githubusercontent.com/RKJO/real_estate_application/images/btra_img/btra_main.png)
+
+***
+![BTRA listing](https://raw.githubusercontent.com/RKJO/real_estate_application/images/btra_img/btra_listing.png)
+
+***
+![BTRA register](https://raw.githubusercontent.com/RKJO/real_estate_application/images/btra_img/btra_register.png)
+
+***
+![BTRA dashboard](https://raw.githubusercontent.com/RKJO/real_estate_application/images/btra_img/btra_dashboard.png)
+
+***
+![BTRA admin](https://raw.githubusercontent.com/RKJO/real_estate_application/images/btra_img/btra_admin.png)
+
+---
 
 
 
