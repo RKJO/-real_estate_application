@@ -19,7 +19,7 @@ A real estate application using Django
 - Frontend register/login to track inquiries
 - Both unregistered and registered users can submit form. If registered, can only submit one per listing
     
- ![BTRA main](https://raw.githubusercontent.com/RKJO/real_estate_application/tree/images/btra_img)
+ ![BTRA main](https://github.com/RKJO/real_estate_application/tree/images/btra_img)
 
 
 
